@@ -1,4 +1,4 @@
-#Hi, I'm Yosua Surianto
+Hello... I'm Yosua Surianto
 💻 I'm an Informatics student with a mission to become a proficient Web3 Developer.
 
 🌱 My immediate learning targets: Solidity, Hardhat, Ethers.js.
