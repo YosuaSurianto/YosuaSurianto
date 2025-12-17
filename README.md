@@ -3,6 +3,4 @@ Hello... I'm Yosua Surianto
 
 🌱 My immediate learning targets: Solidity, Move, Ethers.js.
 
-🎯 Goal for the next 90 days: Build and deploy my first functional DApp on a testnet.
-
 📫 Let's connect and build the future
