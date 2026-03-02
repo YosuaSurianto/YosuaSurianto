@@ -1,5 +1,7 @@
 # About Me:
-Hello, I'm Yosua Surianto, I'm Web3 Developer. I build secure smart contracts using Move and integrate them into scalable full-stack applications. Passionate about decentralization and actively participating in Web3 hackathons and bounties. Let's build something impactful.
+Hello, I'm Yosua Surianto, often known as Dracoo in the Web3 and tech space. I'm an Informatics student at Sugeng Hartono University.  
+
+My background intersects modern web development, Web3, and gaming. I am a strong advocate for innovation and open communication, believing that the best digital solutions are built through solid teamwork and continuous learning.  Instead of just writing code, I focus on driving growth and solving complex problems efficiently. I thrive in dynamic environments and am always eager to connect with other professionals to collaborate, exchange ideas, and build something impactful. Whether you're building the next big thing in Web3 or looking for a reliable developer to scale your ideas, let's connect. Drop me a message or explore my projects below to see what I can do
 
 
 ## 🌐 Socials:
