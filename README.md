@@ -1,5 +1,5 @@
 # About Me:
-Hello, I'm Yosua Surianto, I'm Web3 Developer specializing in the SUI ecosystem. I build secure smart contracts using Move and integrate them into scalable full-stack applications. Passionate about decentralization and actively participating in Web3 hackathons and bounties. Let's build something impactful.
+Hello, I'm Yosua Surianto, I'm Web3 Developer. I build secure smart contracts using Move and integrate them into scalable full-stack applications. Passionate about decentralization and actively participating in Web3 hackathons and bounties. Let's build something impactful.
 
 
 ## 🌐 Socials:
