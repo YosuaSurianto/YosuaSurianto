@@ -19,7 +19,7 @@
 
 <br>
 
-## Featured Projects (open source)
+## Projects (open source)
 
 <table>
   <tr>
