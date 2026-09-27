@@ -65,14 +65,6 @@
       <img src="./assets/cards/exp-client-games.svg" width="100%" alt="Client work: offline-first escape-room game apps, code private under NDA">
     </td>
   </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="./assets/cards/exp-web3-growth.svg" width="100%" alt="Web3 Growth Contributor, freelance bounties on Superteam, Jun 2025 to Feb 2026">
-    </td>
-    <td width="50%" valign="top">
-      <img src="./assets/cards/exp-hima.svg" width="100%" alt="Head of Student Development Division, HIMA Informatika USH, Dec 2024 to Jul 2026">
-    </td>
-  </tr>
 </table>
 
 ## Tech Stack
@@ -110,13 +102,6 @@
 
 <p><b>Tools</b><br>
   <img src="https://skillicons.dev/icons?i=git,github,vercel,figma&perline=10" alt="Git, GitHub, Vercel, Figma">
-</p>
-
-## Activity
-
-<p align="center">
-  <img src="./profile-3d-contrib/radar.svg" width="49%" alt="Contribution breakdown radar">
-  <img src="./profile-3d-contrib/languages.svg" width="49%" alt="Languages by contribution">
 </p>
 
 <picture>

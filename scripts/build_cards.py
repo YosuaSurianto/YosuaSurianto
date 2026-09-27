@@ -115,32 +115,6 @@ CARDS = [
         "badge": "NDA · CODE PRIVATE",
         "locked": True,
     },
-    {
-        "slug": "exp-web3-growth",
-        "track": "FREELANCE / REMOTE",
-        "title": "Web3 Growth Contributor",
-        "tagline": "Bounties on Superteam",
-        "desc": [
-            "Wrote X threads that explain technical Web3",
-            "concepts for early-stage protocols, backed by",
-            "market and user research.",
-        ],
-        "tags": ["Superteam", "Research", "Writing"],
-        "badge": "JUN 2025 - FEB 2026",
-    },
-    {
-        "slug": "exp-hima",
-        "track": "ORGANIZATION",
-        "title": "Head of Division",
-        "tagline": "Student Development, HIMA Informatika USH",
-        "desc": [
-            "Led the division: planned and ran skill-building",
-            "events, and was the link between students and",
-            "faculty on curriculum feedback.",
-        ],
-        "tags": ["Leadership", "Event planning"],
-        "badge": "DEC 2024 - JUL 2026",
-    },
 ]
 
 
