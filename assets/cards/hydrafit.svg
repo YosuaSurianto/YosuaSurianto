@@ -22,7 +22,7 @@
 <rect x="28" y="1" width="96" height="2" rx="1" fill="#5EB8FF"/>
 <path d="M28 34 l6 -9 h-4 l3 -7" fill="none" stroke="#5EB8FF" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
 <text x="44" y="34" class="k">WEB / FULL-STACK</text>
-<g transform="translate(324,24)"><rect width="132" height="24" rx="6" fill="#5EB8FF" fill-opacity=".12" stroke="#5EB8FF" stroke-opacity=".6"/><text x="66.0" y="16" text-anchor="middle" class="b" fill="#5EB8FF">CAPSTONE PROJECT</text></g>
+<g transform="translate(311,24)"><rect width="145" height="24" rx="6" fill="#5EB8FF" fill-opacity=".12" stroke="#5EB8FF" stroke-opacity=".6"/><text x="72.5" y="16" text-anchor="middle" class="b" fill="#5EB8FF">UNIVERSITY PROJECT</text></g>
 <text x="28" y="86" class="t">HydraFit</text>
 <text x="28" y="114" class="g">Health and fitness tracking platform</text>
 <text x="28" y="150" class="d">BMI and weight-progress tracking with Bcrypt auth,</text>

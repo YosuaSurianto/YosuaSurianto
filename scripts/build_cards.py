@@ -20,7 +20,7 @@ CARDS = [
             "Native PHP and MySQL, no framework.",
         ],
         "tags": ["PHP", "MySQL", "Chart.js", "JavaScript"],
-        "badge": "CAPSTONE PROJECT",
+        "badge": "UNIVERSITY PROJECT",
     },
     {
         "slug": "polysui",
