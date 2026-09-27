@@ -39,7 +39,7 @@
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/YosuaSurianto/tipfy-2"><img src="./assets/cards/tipfy.svg" width="100%" alt="TipFy"></a>
-      <p align="center"><a href="https://tipfyyy.vercel.app">Live demo</a> · <a href="https://github.com/YosuaSurianto/tipfy-2">Source</a></p>
+      <p align="center"><a href="https://github.com/YosuaSurianto/tipfy-2">Source</a></p>
     </td>
   </tr>
   <tr>

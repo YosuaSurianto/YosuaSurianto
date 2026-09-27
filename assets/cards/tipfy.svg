@@ -22,7 +22,7 @@
 <rect x="28" y="1" width="96" height="2" rx="1" fill="#5EB8FF"/>
 <path d="M28 34 l6 -9 h-4 l3 -7" fill="none" stroke="#5EB8FF" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
 <text x="44" y="34" class="k">ON-CHAIN / MONAD</text>
-<g transform="translate(402,24)"><rect width="54" height="24" rx="6" fill="#5EB8FF" fill-opacity=".12" stroke="#5EB8FF" stroke-opacity=".6"/><text x="27.0" y="16" text-anchor="middle" class="b" fill="#5EB8FF">LIVE</text></g>
+
 <text x="28" y="86" class="t">TipFy</text>
 <text x="28" y="114" class="g">Streamer donations that earn yield</text>
 <text x="28" y="150" class="d">Tips go direct or into a vault staked on Aave V3,</text>

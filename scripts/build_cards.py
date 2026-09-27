@@ -60,7 +60,6 @@ CARDS = [
             "for streamers.",
         ],
         "tags": ["Solidity", "viem", "wagmi", "TanStack"],
-        "badge": "LIVE",
     },
     {
         "slug": "novacast",
