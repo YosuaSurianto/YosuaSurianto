@@ -19,13 +19,13 @@
 
 <br>
 
-## Featured Projects
+## Featured Projects (open source)
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/YosuaSurianto/AgentPay"><img src="./assets/cards/agentpay.svg" width="100%" alt="AgentPay"></a>
-      <p align="center"><a href="https://github.com/YosuaSurianto/AgentPay">Source</a></p>
+      <a href="https://github.com/YosuaSurianto/HydraFit-Public-Version"><img src="./assets/cards/hydrafit.svg" width="100%" alt="HydraFit"></a>
+      <p align="center"><a href="https://github.com/YosuaSurianto/HydraFit-Public-Version">Source</a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/YosuaSurianto/PolySUI"><img src="./assets/cards/polysui.svg" width="100%" alt="PolySui, 2nd place at Sui Indonesia Mini Hackathon"></a>

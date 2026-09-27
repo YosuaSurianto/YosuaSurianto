@@ -10,17 +10,17 @@ MONO = "'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, mo
 
 CARDS = [
     {
-        "slug": "agentpay",
-        "track": "ON-CHAIN / STELLAR",
-        "title": "AgentPay",
-        "tagline": "Autonomous payment rails for AI agents",
+        "slug": "hydrafit",
+        "track": "WEB / FULL-STACK",
+        "title": "HydraFit",
+        "tagline": "Health and fitness tracking platform",
         "desc": [
-            "AI agents pay for premium APIs on their own via",
-            "HTTP 402 (x402). A Soroban escrow enforces daily",
-            "limits and settles USDC in ~5 seconds.",
+            "BMI and weight-progress tracking with Bcrypt auth,",
+            "PHPMailer OTP verification and Chart.js analytics.",
+            "Native PHP and MySQL, no framework.",
         ],
-        "tags": ["Rust", "Soroban", "Stellar", "Next.js"],
-        "badge": "x402 · TESTNET",
+        "tags": ["PHP", "MySQL", "Chart.js", "JavaScript"],
+        "badge": "CAPSTONE PROJECT",
     },
     {
         "slug": "polysui",

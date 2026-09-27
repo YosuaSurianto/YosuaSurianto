@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="270" viewBox="0 0 480 270" role="img" aria-label="HydraFit: Health and fitness tracking platform">
+<title>HydraFit: Health and fitness tracking platform</title>
+<defs>
+  <linearGradient id="bghydrafit" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0D1526"/><stop offset="1" stop-color="#070B14"/>
+  </linearGradient>
+  <radialGradient id="glowhydrafit" cx="0.9" cy="0" r="0.8">
+    <stop offset="0" stop-color="#5EB8FF" stop-opacity=".18"/><stop offset="1" stop-color="#5EB8FF" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<style>
+  .k { font: 700 11px 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; letter-spacing: 2px; fill: #5EB8FF; }
+  .t { font: 800 30px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #EAF4FF; }
+  .g { font: 600 15px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #A9C7E8; }
+  .d { font: 400 13.5px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #7F93B2; }
+  .b { font: 700 10.5px 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; letter-spacing: 1px; }
+  .chip { fill: #5EB8FF; fill-opacity: .08; stroke: #5EB8FF; stroke-opacity: .35; }
+  .ct { font: 600 12px 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; fill: #CFE6FF; }
+</style>
+<rect x="1" y="1" width="478" height="268" rx="16" fill="url(#bghydrafit)" stroke="#1B2A44" stroke-width="1.5"/>
+<rect x="1" y="1" width="478" height="268" rx="16" fill="url(#glowhydrafit)"/>
+<rect x="28" y="1" width="96" height="2" rx="1" fill="#5EB8FF"/>
+<path d="M28 34 l6 -9 h-4 l3 -7" fill="none" stroke="#5EB8FF" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="44" y="34" class="k">WEB / FULL-STACK</text>
+<g transform="translate(324,24)"><rect width="132" height="24" rx="6" fill="#5EB8FF" fill-opacity=".12" stroke="#5EB8FF" stroke-opacity=".6"/><text x="66.0" y="16" text-anchor="middle" class="b" fill="#5EB8FF">CAPSTONE PROJECT</text></g>
+<text x="28" y="86" class="t">HydraFit</text>
+<text x="28" y="114" class="g">Health and fitness tracking platform</text>
+<text x="28" y="150" class="d">BMI and weight-progress tracking with Bcrypt auth,</text>
+<text x="28" y="171" class="d">PHPMailer OTP verification and Chart.js analytics.</text>
+<text x="28" y="192" class="d">Native PHP and MySQL, no framework.</text>
+<g transform="translate(28,222)"><rect width="44" height="26" rx="13" class="chip"/><text x="22.0" y="17.5" text-anchor="middle" class="ct">PHP</text></g><g transform="translate(80,222)"><rect width="59" height="26" rx="13" class="chip"/><text x="29.5" y="17.5" text-anchor="middle" class="ct">MySQL</text></g><g transform="translate(147,222)"><rect width="81" height="26" rx="13" class="chip"/><text x="40.5" y="17.5" text-anchor="middle" class="ct">Chart.js</text></g><g transform="translate(236,222)"><rect width="96" height="26" rx="13" class="chip"/><text x="48.0" y="17.5" text-anchor="middle" class="ct">JavaScript</text></g>
+</svg>
