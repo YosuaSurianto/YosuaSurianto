@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Yosua Surianto, Full-Stack and Smart Contract Engineer">
+<title>Yosua Surianto</title>
+<defs>
+  <radialGradient id="sky" cx="0.5" cy="0.15" r="0.9">
+    <stop offset="0" stop-color="#10213D"/>
+    <stop offset="0.55" stop-color="#081020"/>
+    <stop offset="1" stop-color="#04070E"/>
+  </radialGradient>
+  <linearGradient id="title" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset="0.45" stop-color="#BFE3FF"/>
+    <stop offset="1" stop-color="#5EB8FF"/>
+  </linearGradient>
+  <linearGradient id="floorFade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#04070E" stop-opacity="1"/>
+    <stop offset="0.35" stop-color="#04070E" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="horizon" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#5EB8FF" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#5EB8FF" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#5EB8FF" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="cloudG">
+    <stop offset="0" stop-color="#1A2C50" stop-opacity=".95"/><stop offset=".6" stop-color="#14233F" stop-opacity=".6"/><stop offset="1" stop-color="#14233F" stop-opacity="0"/>
+  </radialGradient>
+  <clipPath id="frame"><rect width="1200" height="380" rx="18"/></clipPath>
+  <pattern id="rain" width="60" height="120" patternUnits="userSpaceOnUse">
+    <line x1="10" y1="0" x2="4" y2="26" stroke="#7FC4FF" stroke-opacity=".22" stroke-width="1.2"/>
+    <line x1="42" y1="58" x2="36" y2="84" stroke="#7FC4FF" stroke-opacity=".16" stroke-width="1"/>
+  </pattern>
+</defs>
+<style>
+  .mono { font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; }
+  .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+  .rain { animation: rain .7s linear infinite; }
+  @keyframes rain { from { transform: translate(0, -120px); } to { transform: translate(-20px, 0); } }
+  .grid { animation: grid 2.4s linear infinite; }
+  @keyframes grid { from { transform: translateY(0); } to { transform: translateY(24px); } }
+  .flash { opacity: 0; animation: flash 7s infinite; }
+  @keyframes flash { 0%, 61%, 64%, 67%, 100% { opacity: 0; } 62% { opacity: .55; } 65% { opacity: .3; } }
+  .bolt1 { opacity: 0; animation: bolt 7s infinite; }
+  .bolt2 { opacity: 0; animation: bolt 7s infinite 3.1s; }
+  .bolt3 { opacity: 0; animation: bolt 9s infinite 5.2s; }
+  @keyframes bolt { 0%, 61%, 63.5%, 64.5%, 67%, 100% { opacity: 0; } 62%, 64%, 65% { opacity: 1; } }
+  .blink { animation: blink 1.2s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  .pulse { animation: pulse 2.4s ease-in-out infinite; }
+  @keyframes pulse { 50% { opacity: .35; } }
+  @media (prefers-reduced-motion: reduce) { .rain, .grid, .flash, .bolt1, .bolt2, .bolt3, .blink, .pulse { animation: none; } }
+</style>
+
+<g clip-path="url(#frame)">
+  <rect width="1200" height="380" fill="url(#sky)"/>
+
+  <!-- storm clouds -->
+  <g opacity=".9">
+    <ellipse cx="180" cy="20" rx="320" ry="95" fill="url(#cloudG)"/>
+    <ellipse cx="620" cy="0" rx="420" ry="100" fill="url(#cloudG)"/>
+    <ellipse cx="1040" cy="26" rx="340" ry="95" fill="url(#cloudG)"/>
+  </g>
+
+  <!-- sky flash -->
+  <rect class="flash" width="1200" height="380" fill="#9FD3FF"/>
+
+  <!-- lightning -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g class="bolt1">
+      <path d="M205 0 L188 58 L214 64 L176 142 L204 146 L160 236" stroke="#5EB8FF" stroke-opacity=".18" stroke-width="18"/>
+      <path d="M205 0 L188 58 L214 64 L176 142 L204 146 L160 236" stroke="#5EB8FF" stroke-width="5"/>
+      <path d="M205 0 L188 58 L214 64 L176 142 L204 146 L160 236" stroke="#FFFFFF" stroke-width="1.8"/>
+      <path d="M176 142 L150 176 L158 196" stroke="#BFE3FF" stroke-width="1.2"/>
+    </g>
+    <g class="bolt2">
+      <path d="M1010 0 L1030 50 L1004 58 L1044 128 L1016 134 L1058 214" stroke="#5EB8FF" stroke-opacity=".18" stroke-width="18"/>
+      <path d="M1010 0 L1030 50 L1004 58 L1044 128 L1016 134 L1058 214" stroke="#5EB8FF" stroke-width="5"/>
+      <path d="M1010 0 L1030 50 L1004 58 L1044 128 L1016 134 L1058 214" stroke="#FFFFFF" stroke-width="1.8"/>
+      <path d="M1044 128 L1076 150 L1072 172" stroke="#BFE3FF" stroke-width="1.2"/>
+    </g>
+    <g class="bolt3">
+      <path d="M760 0 L748 34 L766 38 L742 92" stroke="#8B7CFF" stroke-opacity=".18" stroke-width="18"/>
+      <path d="M760 0 L748 34 L766 38 L742 92" stroke="#8B7CFF" stroke-width="4"/>
+      <path d="M760 0 L748 34 L766 38 L742 92" stroke="#FFFFFF" stroke-width="1.4"/>
+    </g>
+  </g>
+
+  <!-- rain -->
+  <rect class="rain" x="-60" y="-120" width="1340" height="620" fill="url(#rain)"/>
+
+  <!-- cyber floor -->
+  <g transform="translate(600 292)">
+    <clipPath id="floorClip"><rect x="-700" y="0" width="1400" height="100"/></clipPath>
+    <g stroke="#5EB8FF" stroke-opacity=".28" stroke-width="1" clip-path="url(#floorClip)">
+      <g class="grid">
+        <line x1="-700" y1="-24" x2="700" y2="-24"/>
+        <line x1="-700" y1="0" x2="700" y2="0"/>
+        <line x1="-700" y1="24" x2="700" y2="24"/>
+        <line x1="-700" y1="48" x2="700" y2="48"/>
+        <line x1="-700" y1="72" x2="700" y2="72"/>
+        <line x1="-700" y1="96" x2="700" y2="96"/>
+      </g>
+      <line x1="0" y1="0" x2="0" y2="100"/>
+      <line x1="-60" y1="0" x2="-180" y2="100"/><line x1="60" y1="0" x2="180" y2="100"/>
+      <line x1="-120" y1="0" x2="-360" y2="100"/><line x1="120" y1="0" x2="360" y2="100"/>
+      <line x1="-180" y1="0" x2="-540" y2="100"/><line x1="180" y1="0" x2="540" y2="100"/>
+      <line x1="-240" y1="0" x2="-720" y2="100"/><line x1="240" y1="0" x2="720" y2="100"/>
+      <line x1="-300" y1="0" x2="-900" y2="100"/><line x1="300" y1="0" x2="900" y2="100"/>
+    </g>
+    <rect x="-600" y="-2" width="1200" height="40" fill="url(#floorFade)"/>
+  </g>
+  <rect x="0" y="289" width="1200" height="2" fill="url(#horizon)"/>
+
+  <!-- title -->
+  <g>
+    <text x="600" y="196" text-anchor="middle" class="sans" font-size="92" font-weight="900" letter-spacing="8" fill="none" stroke="#5EB8FF" stroke-opacity=".07" stroke-width="18" stroke-linejoin="round">YOSUA SURIANTO</text>
+    <text x="600" y="196" text-anchor="middle" class="sans" font-size="92" font-weight="900" letter-spacing="8" fill="none" stroke="#5EB8FF" stroke-opacity=".12" stroke-width="10" stroke-linejoin="round">YOSUA SURIANTO</text>
+    <text x="600" y="196" text-anchor="middle" class="sans" font-size="92" font-weight="900" letter-spacing="8" fill="none" stroke="#5EB8FF" stroke-opacity=".16" stroke-width="4" stroke-linejoin="round">YOSUA SURIANTO</text>
+    <text x="600" y="196" text-anchor="middle" class="sans" font-size="92" font-weight="900" letter-spacing="8" fill="url(#title)">YOSUA SURIANTO</text>
+    <text x="600" y="196" text-anchor="middle" class="sans flash" font-size="92" font-weight="900" letter-spacing="8" fill="#FFFFFF">YOSUA SURIANTO</text>
+  </g>
+    <text x="600" y="250" text-anchor="middle" class="mono" font-size="16" font-weight="700" letter-spacing="5" fill="#5EB8FF">FULL-STACK  ·  SMART CONTRACT ENGINEER</text>
+
+  <!-- HUD -->
+  <g stroke="#5EB8FF" stroke-width="2" fill="none" opacity=".8">
+    <path d="M24 52 V24 H52"/><path d="M1148 24 H1176 V52"/>
+    <path d="M24 328 V356 H52"/><path d="M1148 356 H1176 V328"/>
+  </g>
+  <g class="mono" font-size="11" letter-spacing="2" fill="#6F8DB5">
+    <text x="64" y="40">// DRACOO.NET</text>
+    <text x="1136" y="40" text-anchor="end">WEB2 · WEB3 · APPS · GAMES</text>
+    <text x="64" y="350">&gt; dracoo.net<tspan class="blink" fill="#5EB8FF">_</tspan></text>
+    <text x="1122" y="350" text-anchor="end">OPEN TO WORK</text>
+  </g>
+  <circle class="pulse" cx="1134" cy="346" r="4.5" fill="#3DFFB4"/>
+</g>
+<rect x=".75" y=".75" width="1198.5" height="378.5" rx="18" fill="none" stroke="#1B2A44" stroke-width="1.5"/>
+</svg>

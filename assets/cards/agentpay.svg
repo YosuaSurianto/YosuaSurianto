@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="270" viewBox="0 0 480 270" role="img" aria-label="AgentPay: Autonomous payment rails for AI agents">
+<title>AgentPay: Autonomous payment rails for AI agents</title>
+<defs>
+  <linearGradient id="bgagentpay" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0D1526"/><stop offset="1" stop-color="#070B14"/>
+  </linearGradient>
+  <radialGradient id="glowagentpay" cx="0.9" cy="0" r="0.8">
+    <stop offset="0" stop-color="#5EB8FF" stop-opacity=".18"/><stop offset="1" stop-color="#5EB8FF" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<style>
+  .k { font: 700 11px 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; letter-spacing: 2px; fill: #5EB8FF; }
+  .t { font: 800 30px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #EAF4FF; }
+  .g { font: 600 15px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #A9C7E8; }
+  .d { font: 400 13.5px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #7F93B2; }
+  .b { font: 700 10.5px 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; letter-spacing: 1px; }
+  .chip { fill: #5EB8FF; fill-opacity: .08; stroke: #5EB8FF; stroke-opacity: .35; }
+  .ct { font: 600 12px 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; fill: #CFE6FF; }
+</style>
+<rect x="1" y="1" width="478" height="268" rx="16" fill="url(#bgagentpay)" stroke="#1B2A44" stroke-width="1.5"/>
+<rect x="1" y="1" width="478" height="268" rx="16" fill="url(#glowagentpay)"/>
+<rect x="28" y="1" width="96" height="2" rx="1" fill="#5EB8FF"/>
+<path d="M28 34 l6 -9 h-4 l3 -7" fill="none" stroke="#5EB8FF" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="44" y="34" class="k">ON-CHAIN / STELLAR</text>
+<g transform="translate(337,24)"><rect width="119" height="24" rx="6" fill="#5EB8FF" fill-opacity=".12" stroke="#5EB8FF" stroke-opacity=".6"/><text x="59.5" y="16" text-anchor="middle" class="b" fill="#5EB8FF">x402 · TESTNET</text></g>
+<text x="28" y="86" class="t">AgentPay</text>
+<text x="28" y="114" class="g">Autonomous payment rails for AI agents</text>
+<text x="28" y="150" class="d">AI agents pay for premium APIs on their own via</text>
+<text x="28" y="171" class="d">HTTP 402 (x402). A Soroban escrow enforces daily</text>
+<text x="28" y="192" class="d">limits and settles USDC in ~5 seconds.</text>
+<g transform="translate(28,222)"><rect width="51" height="26" rx="13" class="chip"/><text x="25.5" y="17.5" text-anchor="middle" class="ct">Rust</text></g><g transform="translate(87,222)"><rect width="74" height="26" rx="13" class="chip"/><text x="37.0" y="17.5" text-anchor="middle" class="ct">Soroban</text></g><g transform="translate(169,222)"><rect width="74" height="26" rx="13" class="chip"/><text x="37.0" y="17.5" text-anchor="middle" class="ct">Stellar</text></g><g transform="translate(251,222)"><rect width="74" height="26" rx="13" class="chip"/><text x="37.0" y="17.5" text-anchor="middle" class="ct">Next.js</text></g>
+</svg>

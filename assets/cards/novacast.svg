@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="270" viewBox="0 0 480 270" role="img" aria-label="NovaCast: Healthcare volume forecasting engine">
+<title>NovaCast: Healthcare volume forecasting engine</title>
+<defs>
+  <linearGradient id="bgnovacast" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0D1526"/><stop offset="1" stop-color="#070B14"/>
+  </linearGradient>
+  <radialGradient id="glownovacast" cx="0.9" cy="0" r="0.8">
+    <stop offset="0" stop-color="#5EB8FF" stop-opacity=".18"/><stop offset="1" stop-color="#5EB8FF" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<style>
+  .k { font: 700 11px 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; letter-spacing: 2px; fill: #5EB8FF; }
+  .t { font: 800 30px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #EAF4FF; }
+  .g { font: 600 15px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #A9C7E8; }
+  .d { font: 400 13.5px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #7F93B2; }
+  .b { font: 700 10.5px 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; letter-spacing: 1px; }
+  .chip { fill: #5EB8FF; fill-opacity: .08; stroke: #5EB8FF; stroke-opacity: .35; }
+  .ct { font: 600 12px 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; fill: #CFE6FF; }
+</style>
+<rect x="1" y="1" width="478" height="268" rx="16" fill="url(#bgnovacast)" stroke="#1B2A44" stroke-width="1.5"/>
+<rect x="1" y="1" width="478" height="268" rx="16" fill="url(#glownovacast)"/>
+<rect x="28" y="1" width="96" height="2" rx="1" fill="#5EB8FF"/>
+<path d="M28 34 l6 -9 h-4 l3 -7" fill="none" stroke="#5EB8FF" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="44" y="34" class="k">AI / ML</text>
+<g transform="translate(344,24)"><rect width="112" height="24" rx="6" fill="#5EB8FF" fill-opacity=".12" stroke="#5EB8FF" stroke-opacity=".6"/><text x="56.0" y="16" text-anchor="middle" class="b" fill="#5EB8FF">-10.77% WMAPE</text></g>
+<text x="28" y="86" class="t">NovaCast</text>
+<text x="28" y="114" class="g">Healthcare volume forecasting engine</text>
+<text x="28" y="150" class="d">Tweedie LightGBM pipeline that beat the LOGEX</text>
+<text x="28" y="171" class="d">SQL baseline by 10.77% relative</text>
+<text x="28" y="192" class="d">(WMAPE 35.97% vs 40.31%).</text>
+<g transform="translate(28,222)"><rect width="66" height="26" rx="13" class="chip"/><text x="33.0" y="17.5" text-anchor="middle" class="ct">Python</text></g><g transform="translate(102,222)"><rect width="81" height="26" rx="13" class="chip"/><text x="40.5" y="17.5" text-anchor="middle" class="ct">LightGBM</text></g><g transform="translate(191,222)"><rect width="103" height="26" rx="13" class="chip"/><text x="51.5" y="17.5" text-anchor="middle" class="ct">Forecasting</text></g>
+</svg>

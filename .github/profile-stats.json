@@ -1,0 +1,18 @@
+[
+  {
+    "type": "radar_contrib_only",
+    "fileName": "radar.svg",
+    "backgroundColor": "#070B14",
+    "foregroundColor": "#CFE6FF",
+    "weakColor": "#1B2A44",
+    "radarColor": "#5EB8FF",
+    "growingAnimation": true
+  },
+  {
+    "type": "pie_lang_only",
+    "fileName": "languages.svg",
+    "backgroundColor": "#070B14",
+    "foregroundColor": "#CFE6FF",
+    "growingAnimation": true
+  }
+]

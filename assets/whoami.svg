@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1000" height="470" viewBox="0 0 1000 470" role="img" aria-label="About Yosua Surianto (Dracoo): Full-Stack Software Engineer and Smart Contract Engineer. Open to freelance or full-time work.">
+<title>whoami: Yosua Surianto (Dracoo)</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0B1322"/><stop offset="1" stop-color="#060A13"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.85" cy="0" r="0.7">
+    <stop offset="0" stop-color="#5EB8FF" stop-opacity=".12"/><stop offset="1" stop-color="#5EB8FF" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" fill="#FFFFFF" fill-opacity=".018"/>
+  </pattern>
+</defs>
+<style>
+  text { font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; font-size: 15px; white-space: pre; }
+  .p { fill: #3DFFB4; font-weight: 700; }
+  .h { fill: #5EB8FF; font-weight: 700; }
+  .c { fill: #EAF4FF; }
+  .o { fill: #A9C7E8; }
+  .m { fill: #7F93B2; }
+  .hi { fill: #FFFFFF; font-weight: 700; }
+  .ac { fill: #5EB8FF; }
+  .dir { fill: #8B7CFF; font-weight: 700; }
+  .ok { fill: #3DFFB4; }
+  .cur { animation: blink 1s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { .cur { animation: none; } }
+</style>
+
+<rect x="1" y="1" width="998" height="468" rx="14" fill="url(#bg)" stroke="#1B2A44" stroke-width="1.5"/>
+<rect x="1" y="1" width="998" height="468" rx="14" fill="url(#glow)"/>
+<rect x="1" y="1" width="998" height="468" rx="14" fill="url(#scan)"/>
+
+<!-- window chrome -->
+<path d="M1 15 a14 14 0 0 1 14 -14 h970 a14 14 0 0 1 14 14 v19 h-998z" fill="#0F1A2E"/>
+<line x1="1" y1="34" x2="999" y2="34" stroke="#1B2A44"/>
+<circle cx="24" cy="18" r="6" fill="#FF5F57"/><circle cx="44" cy="18" r="6" fill="#FEBC2E"/><circle cx="64" cy="18" r="6" fill="#28C840"/>
+<text x="500" y="23" text-anchor="middle" class="m" style="font-size:12px">dracoo.net</text>
+
+<!-- 1 -->
+<text x="40" y="70"><tspan class="p">dracoo.net</tspan><tspan class="h">:~$</tspan></text>
+<text x="170" y="70" class="c">whoami</text>
+<text x="40" y="96"><tspan class="hi">Yosua Surianto</tspan><tspan class="m"> (</tspan><tspan class="ac">Dracoo</tspan><tspan class="m">)</tspan></text>
+
+<!-- 2 -->
+<text x="40" y="132"><tspan class="p">dracoo.net</tspan><tspan class="h">:~$</tspan></text>
+<text x="170" y="132" class="c">cat role.txt</text>
+<text x="40" y="158" class="o">Full-Stack Software Engineer <tspan class="m">·</tspan> Smart Contract Engineer</text>
+
+<!-- 3 -->
+<text x="40" y="194"><tspan class="p">dracoo.net</tspan><tspan class="h">:~$</tspan></text>
+<text x="170" y="194" class="c">cat about.md</text>
+<text x="40" y="220" class="o">Informatics student who builds web apps, mobile apps, games and smart</text>
+<text x="40" y="246" class="o">contracts end to end. Next.js and TypeScript on the frontend, Node.js,</text>
+<text x="40" y="272" class="o">PHP and PostgreSQL or MySQL on the backend, and Move, Rust or Solidity on-chain.</text>
+
+<!-- 4 -->
+<text x="40" y="308"><tspan class="p">dracoo.net</tspan><tspan class="h">:~$</tspan></text>
+<text x="170" y="308" class="c">ls ~/domains</text>
+<text x="40" y="334"><tspan class="dir">web2/</tspan>    <tspan class="dir">web3/</tspan>    <tspan class="dir">mobile/</tspan>    <tspan class="dir">games/</tspan>    <tspan class="dir">ai-ml/</tspan></text>
+
+<!-- 5 -->
+<text x="40" y="370"><tspan class="p">dracoo.net</tspan><tspan class="h">:~$</tspan></text>
+<text x="170" y="370" class="c">echo $STATUS</text>
+<g><circle cx="46" cy="391" r="5" fill="#3DFFB4"/></g>
+<text x="40" y="396"><tspan class="hi">   open to work</tspan><tspan class="o">: freelance or full-time</tspan><tspan class="m">, remote or hybrid</tspan></text>
+
+<!-- prompt -->
+<g>
+  <text x="40" y="432"><tspan class="p">dracoo.net</tspan><tspan class="h">:~$</tspan></text>
+  <rect x="170" y="418" width="9" height="18" fill="#5EB8FF" class="cur"/>
+</g>
+</svg>
